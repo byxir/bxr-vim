@@ -105,7 +105,8 @@
     { "before": ["leader", "a"], "after": ["^"] },
     { "before": ["leader", "g"], "after": ["$"] },
     { "before": ["leader", "r"], "commands": ["actions.find"] },
-    { "before": ["d", "f"], "after": ["D"] }
+    { "before": ["d", "f"], "after": ["D"] },
+    { "before": ["leader", "t"], "commands": ["editor.emmet.action.matchTag"] }
   ],
   "vim.visualModeKeyBindings": [
     { "before": ["<"], "commands": ["editor.action.outdentLines"] },
@@ -126,5 +127,7 @@
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
   "workbench.layoutControl.enabled": false,
-  "vim.useSystemClipboard": true
+  "vim.useSystemClipboard": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true
 }

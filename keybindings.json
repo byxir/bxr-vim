@@ -1,3 +1,4 @@
+// Place your key bindings in this file to override the defaults
 [
   // NAVIGATION
   {
@@ -58,5 +59,15 @@
     "command": "deleteFile",
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+shift+[",
+    "command": "editor.emmet.action.matchTag",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+shift+]",
+    "command": "editor.emmet.action.matchTag",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
   }
 ]
