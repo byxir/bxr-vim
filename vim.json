@@ -115,7 +115,19 @@
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] },
     { "before": ["leader", "a"], "after": ["^"] },
-    { "before": ["leader", "g"], "after": ["$"] }
+    { "before": ["leader", "g"], "after": ["$"] },
+    {
+      "before": ["<C-Down>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    { "before": ["<C-Up>"], "commands": ["editor.action.moveLinesUpAction"] }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-Down>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    { "before": ["<C-Up>"], "commands": ["editor.action.moveLinesUpAction"] }
   ],
   "symbols.hidesExplorerArrows": false,
   "accessibility.signals.progress": {
