@@ -135,12 +135,14 @@
     "sound": "off"
   },
   "liveshare.accessibility.soundsEnabled": false,
-  "accessibility.signals.sounds.volume": 0,
   "liveshare.accessibility.soundVolume": 0,
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
   "workbench.layoutControl.enabled": false,
   "vim.useSystemClipboard": true,
   "prisma.showPrismaDataPlatformNotification": false,
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "accessibility.signalOptions": {
+    "volume": 0
+  }
 }
