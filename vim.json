@@ -142,7 +142,5 @@
   "vim.useSystemClipboard": true,
   "prisma.showPrismaDataPlatformNotification": false,
   "github.copilot.editor.enableAutoCompletions": true,
-  "accessibility.signalOptions": {
-    "volume": 0
-  }
+  "explorer.confirmDelete": false
 }
