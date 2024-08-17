@@ -44,11 +44,11 @@
     "key": "r",
     "when": "filesExplorerFocus && !inputFocus"
   },
-  {
-    "key": "shift+n",
-    "command": "explorer.newFolder",
-    "when": "explorerViewletFocus"
-  },
+  // {
+  //   "key": "shift+n",
+  //   "command": "explorer.newFolder",
+  //   "when": "explorerViewletFocus"
+  // },
   {
     "command": "deleteFile",
     "key": "d",
