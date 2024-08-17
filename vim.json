@@ -106,8 +106,7 @@
     { "before": ["leader", "a"], "after": ["^"] },
     { "before": ["leader", "g"], "after": ["$"] },
     { "before": ["leader", "r"], "commands": ["actions.find"] },
-    { "before": ["d", "f"], "after": ["D"] },
-    { "before": ["leader", "t"], "commands": ["editor.emmet.action.matchTag"] }
+    { "before": ["d", "f"], "after": ["D"] }
   ],
   "vim.visualModeKeyBindings": [
     { "before": ["<"], "commands": ["editor.action.outdentLines"] },
@@ -117,11 +116,24 @@
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] },
     { "before": ["leader", "a"], "after": ["^"] },
     { "before": ["leader", "g"], "after": ["$"] },
+    { "before": ["leader", "t"], "commands": ["editor.emmet.action.matchTag"] },
     {
       "before": ["<C-Down>"],
       "commands": ["editor.action.moveLinesDownAction"]
     },
-    { "before": ["<C-Up>"], "commands": ["editor.action.moveLinesUpAction"] }
+    { "before": ["<C-Up>"], "commands": ["editor.action.moveLinesUpAction"] },
+    {
+      "before": ["u"],
+      "after": []
+    },
+    {
+      "before": ["U"],
+      "after": []
+    },
+    {
+      "before": ["<C-v>"],
+      "after": ["<Esc>", "\"", "+", "p", "a"]
+    }
   ],
   "vim.normalModeKeyBindings": [
     {
@@ -130,17 +142,18 @@
     },
     { "before": ["<C-Up>"], "commands": ["editor.action.moveLinesUpAction"] }
   ],
-  "symbols.hidesExplorerArrows": false,
   "accessibility.signals.progress": {
     "sound": "off"
   },
-  "liveshare.accessibility.soundsEnabled": false,
-  "liveshare.accessibility.soundVolume": 0,
   "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
-  "workbench.layoutControl.enabled": false,
   "vim.useSystemClipboard": true,
-  "prisma.showPrismaDataPlatformNotification": false,
-  "github.copilot.editor.enableAutoCompletions": true,
-  "explorer.confirmDelete": false
+  "vim.handleKeys": {
+    "p": false
+  },
+
+  "explorer.confirmDelete": false,
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.documentSelectors": ["**/*.astro"]
 }
