@@ -1,5 +1,4 @@
 [
-  // NAVIGATION
   {
     "key": "cmd+shift+l",
     "command": "workbench.action.terminal.focusNext",
@@ -44,24 +43,19 @@
     "key": "r",
     "when": "filesExplorerFocus && !inputFocus"
   },
-  // {
-  //   "key": "shift+n",
-  //   "command": "explorer.newFolder",
-  //   "when": "explorerViewletFocus"
-  // },
   {
     "command": "deleteFile",
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
-  },
-  {
-    "key": "cmd+shift+[",
-    "command": "editor.emmet.action.matchTag",
-    "when": "editorTextFocus && vim.mode == 'Normal'"
-  },
-  {
-    "key": "cmd+shift+]",
-    "command": "editor.emmet.action.matchTag",
-    "when": "editorTextFocus && vim.mode == 'Normal'"
   }
+  // {
+  //   "key": "cmd+shift+[",
+  //   "command": "editor.emmet.action.matchTag",
+  //   "when": "editorTextFocus && vim.mode == 'Normal'"
+  // },
+  // {
+  //   "key": "cmd+shift+]",
+  //   "command": "editor.emmet.action.matchTag",
+  //   "when": "editorTextFocus && vim.mode == 'Normal'"
+  // }
 ]
