@@ -1,36 +1,35 @@
 [
   {
-    "key": "cmd+shift+l",
+    "key": "ctrl+shift+l",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+shift+h",
+    "key": "ctrl+shift+h",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+shift+j",
+    "key": "ctrl+shift+j",
     "command": "workbench.action.togglePanel"
   },
   {
-    "key": "cmd+shift+n",
+    "key": "ctrl+shift+n",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+shift+w",
+    "key": "ctrl+shift+w",
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
-  // FILE TREE
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "cmd+e"
+    "key": "ctrl+e"
   },
   {
     "command": "workbench.files.action.focusFilesExplorer",
-    "key": "cmd+e",
+    "key": "ctrl+e",
     "when": "editorTextFocus"
   },
   {
@@ -48,14 +47,4 @@
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
   }
-  // {
-  //   "key": "cmd+shift+[",
-  //   "command": "editor.emmet.action.matchTag",
-  //   "when": "editorTextFocus && vim.mode == 'Normal'"
-  // },
-  // {
-  //   "key": "cmd+shift+]",
-  //   "command": "editor.emmet.action.matchTag",
-  //   "when": "editorTextFocus && vim.mode == 'Normal'"
-  // }
 ]
