@@ -1,5 +1,6 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.lineNumbers": "relative",
   "editor.formatOnSave": true,
   "prettier.htmlWhitespaceSensitivity": "ignore",
   "accessibility.signals.lineHasError": {
